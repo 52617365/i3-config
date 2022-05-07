@@ -5,17 +5,17 @@
     "floating": "auto_off",
     "geometry": {
        "height": 1045,
-       "width": 1916,
+       "width": 3836,
        "x": 0,
        "y": 0
     },
-    "name": "bash",
-    "percent": 0.705989583333333,
+    "name": "tmux ~",
+    "percent": 0.5,
     "swallows": [
        {
         "class": "^kitty$",
         "instance": "^kitty$",
-        "title": "^bash$"
+        "title": "^tmux\\ \\~$"
        }
     ],
     "type": "con"
@@ -27,12 +27,12 @@
     "floating": "auto_off",
     "geometry": {
        "height": 1045,
-       "width": 1276,
-       "x": 2572,
+       "width": 956,
+       "x": 972,
        "y": 26
     },
     "name": "New Tab - Chromium",
-    "percent": 0.294010416666667,
+    "percent": 0.5,
     "swallows": [
        {
         "class": "^Chromium$",

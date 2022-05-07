@@ -142,26 +142,23 @@ bar {
 
 # This is what I use in ie config
 # custom variables for workspaces
-set $ws1 "1< Kitty >"
-set $ws2 "2< Web >"
-set $ws3 "3< Discord >"
-set $ws4 "4< Slack >"
-set $ws5 5
-set $ws6 6
-set $ws7 7
-set $ws8 8
-set $ws9 9
+set $ws1 "Programming"
+set $ws2 "Docs"
+set $ws3 "Discord"
+set $ws4 "Slack" 
+set $ws5 "Entertainment"
 
 # In your i3 configuration file, you can autostart i3-msg like this:
 # (Note that those lines will quickly become long, so typically you would store
 #  them in a script with proper indentation.)
-exec --no-startup-id "i3-msg 'workspace 1; append_layout /home/rase/.config/i3/workspace-1.json'"
+exec --no-startup-id "i3-msg 'workspace 1; append_layout /home/rase/.config/i3/programming.json'"
 exec --no-startup-id "i3-msg 'workspace 2; append_layout /home/rase/.config/i3/workspace-2.json'" 
 exec --no-startup-id "i3-msg 'workspace 3; append_layout /home/rase/.config/i3/workspace-3.json'" 
 exec --no-startup-id "i3-msg 'workspace 4; append_layout /home/rase/.config/i3/workspace-4.json'"
-exec --no-startup-id "i3-msg 'workspace 1:Kitty; exec /usr/bin/kitty'"
-exec --no-startup-id "i3-msg 'workspace 1:Kitty; exec /usr/bin/chromium'"
-exec --no-startup-id "i3-msg 'workspace 2:Web; exec /usr/bin/brave'"
-exec --no-startup-id "i3-msg 'workspace 3:Discord; exec /usr/bin/discord'"
-exec --no-startup-id "i3-msg 'workspace 4:Slack; exec /usr/bin/slack'"
+exec --no-startup-id "i3-msg 'workspace 5; append_layout /home/rase/.config/i3/entertainment.json'"
 
+exec i3-msg 'exec brave-browser -name Entertainment'
+exec i3-msg 'exec chromium -name Docs'
+exec i3-msg 'exec fish -name Programming'
+exec i3-msg 'exec slack -name Slack'
+exec i3-msg 'exec discord -name Discord'
