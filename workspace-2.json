@@ -1,0 +1,24 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1045,
+       "width": 3836,
+       "x": 2,
+       "y": 16
+    },
+    "name": "std - Rust - Chromium",
+    "percent": 1,
+    "swallows": [
+       {
+        "class": "^Chromium$",
+        "instance": "^chromium$",
+        "title": "^std\\ \\-\\ Rust\\ \\-\\ Chromium$",
+        "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
