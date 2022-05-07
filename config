@@ -109,9 +109,7 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
-mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
-
+mode "resize" { # These bindings trigger as soon as you enter the resize mode
         # Pressing left will shrink the window’s width.
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
@@ -157,8 +155,15 @@ exec --no-startup-id "i3-msg 'workspace 3; append_layout /home/rase/.config/i3/w
 exec --no-startup-id "i3-msg 'workspace 4; append_layout /home/rase/.config/i3/workspace-4.json'"
 exec --no-startup-id "i3-msg 'workspace 5; append_layout /home/rase/.config/i3/entertainment.json'"
 
-exec i3-msg 'exec brave-browser -name Entertainment'
-exec i3-msg 'exec chromium -name Docs'
-exec i3-msg 'exec fish -name Programming'
-exec i3-msg 'exec slack -name Slack'
-exec i3-msg 'exec discord -name Discord'
+# First Workspace
+exec i3-msg 'exec fish -name kitty'
+exec i3-msg 'exec chromium -name chromium'
+
+# Second Workspace
+exec i3-msg 'exec brave-browser -name brave\\-browser'
+
+# Third Workspace
+exec i3-msg 'exec discord -name discord'
+
+# Fourth Workspace
+exec i3-msg 'exec slack -name slack'
