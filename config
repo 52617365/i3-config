@@ -142,7 +142,7 @@ bar {
 
 # This is what I use in ie config
 # custom variables for workspaces
-set $ws1 "1< Nvim >"
+set $ws1 "1< Kitty >"
 set $ws2 "2< Web >"
 set $ws3 "3< Discord >"
 set $ws4 "4< Slack >"
@@ -156,6 +156,12 @@ set $ws9 9
 # (Note that those lines will quickly become long, so typically you would store
 #  them in a script with proper indentation.)
 exec --no-startup-id "i3-msg 'workspace 1; append_layout /home/rase/.config/i3/workspace-1.json'"
-exec --no-startup-id "i3-msg 'workspace 2; append_layout /home/rase/.config/i3/workspace-2.json'"
-exec --no-startup-id "i3-msg 'workspace 3; append_layout /home/rase/.config/i3/workspace-3.json'"
+exec --no-startup-id "i3-msg 'workspace 2; append_layout /home/rase/.config/i3/workspace-2.json'" 
+exec --no-startup-id "i3-msg 'workspace 3; append_layout /home/rase/.config/i3/workspace-3.json'" 
 exec --no-startup-id "i3-msg 'workspace 4; append_layout /home/rase/.config/i3/workspace-4.json'"
+exec --no-startup-id "i3-msg 'workspace 1:Kitty; exec /usr/bin/kitty'"
+exec --no-startup-id "i3-msg 'workspace 1:Kitty; exec /usr/bin/chromium'"
+exec --no-startup-id "i3-msg 'workspace 2:Web; exec /usr/bin/brave'"
+exec --no-startup-id "i3-msg 'workspace 3:Discord; exec /usr/bin/discord'"
+exec --no-startup-id "i3-msg 'workspace 4:Slack; exec /usr/bin/slack'"
+

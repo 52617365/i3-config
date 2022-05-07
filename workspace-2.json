@@ -9,13 +9,13 @@
        "x": 2,
        "y": 16
     },
-    "name": "std - Rust - Chromium",
+    "name": "New Tab - Brave",
     "percent": 1,
     "swallows": [
        {
-        "class": "^Chromium$",
-        "instance": "^chromium$",
-        "title": "^std\\ \\-\\ Rust\\ \\-\\ Chromium$",
+        "class": "^Brave\\-browser$",
+        "instance": "^brave\\-browser$",
+        "title": "^New\\ Tab\\ \\-\\ Brave$",
         "window_role": "^browser$"
        }
     ],
