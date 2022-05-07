@@ -153,7 +153,7 @@ exec --no-startup-id "i3-msg 'workspace 3; append_layout /home/rase/.config/i3/d
 
 # Start programs into workspaces on startup.
 exec --no-startup-id "i3-msg 'workspace 1; exec /usr/bin/kitty'"
-exec --no-startup-id "i3-msg 'workspace 1; exec /snap/bin/chromium'"
+exec --no-startup-id "i3-msg 'workspace 1; exec /usr/bin/chromium'"
 exec --no-startup-id "i3-msg 'workspace 2; exec /usr/bin/brave-browser'"
 exec --no-startup-id "i3-msg 'workspace 3; exec /snap/bin/discord'"
 # END Start programs into workspaces on startup.
