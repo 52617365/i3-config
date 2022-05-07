@@ -5,17 +5,17 @@
     "floating": "auto_off",
     "geometry": {
        "height": 1045,
-       "width": 1276,
-       "x": 2,
-       "y": 16
+       "width": 764,
+       "x": 0,
+       "y": 0
     },
-    "name": "vim - Discord",
+    "name": "Slack | witted-ipo | Talented Network",
     "percent": 1,
     "swallows": [
        {
-        "class": "^discord$",
-        "instance": "^discord$",
-        "title": "^vim\\ \\-\\ Discord$",
+        "class": "^Slack$",
+        "instance": "^slack$",
+        "title": "^Slack\\ \\|\\ witted\\-ipo\\ \\|\\ Talented\\ Network$",
         "window_role": "^browser\\-window$"
        }
     ],

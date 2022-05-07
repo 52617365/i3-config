@@ -1,10 +1,11 @@
+// vim:ts=4:sw=4:et
 {
     "border": "normal",
     "current_border_width": 2,
     "floating": "auto_off",
     "geometry": {
        "height": 1045,
-       "width": 764,
+       "width": 1276,
        "x": 0,
        "y": 0
     },
@@ -14,7 +15,7 @@
        {
         "class": "^kitty$",
         "instance": "^kitty$",
-        "title": "^\\~$"
+        "title": "*"
        }
     ],
     "type": "con"
@@ -27,8 +28,8 @@
     "geometry": {
        "height": 1045,
        "width": 956,
-       "x": 972,
-       "y": 26
+       "x": 1922,
+       "y": 16
     },
     "name": "New Tab - Chromium",
     "percent": 0.5,
@@ -36,7 +37,7 @@
        {
         "class": "^Chromium$",
         "instance": "^chromium$",
-        "title": "^New\\ Tab\\ \\-\\ Chromium$",
+        "title": "*",
         "window_role": "^browser$"
        }
     ],

@@ -5,17 +5,17 @@
     "floating": "auto_off",
     "geometry": {
        "height": 1045,
-       "width": 1916,
-       "x": 1922,
-       "y": 16
+       "width": 956,
+       "x": 0,
+       "y": 0
     },
-    "name": "Slack | witted-ipo | Talented Network",
+    "name": "Discord",
     "percent": 1,
     "swallows": [
        {
-        "class": "^Slack$",
-        "instance": "^slack$",
-        "title": "^Slack\\ \\|\\ witted\\-ipo\\ \\|\\ Talented\\ Network$",
+        "class": "^discord$",
+        "instance": "^discord$",
+        "title": "^Discord$",
         "window_role": "^browser\\-window$"
        }
     ],
