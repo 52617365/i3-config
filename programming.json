@@ -4,17 +4,17 @@
     "floating": "auto_off",
     "geometry": {
        "height": 1045,
-       "width": 3836,
+       "width": 764,
        "x": 0,
        "y": 0
     },
-    "name": "tmux ~",
+    "name": "~",
     "percent": 0.5,
     "swallows": [
        {
         "class": "^kitty$",
         "instance": "^kitty$",
-        "title": "^tmux\\ \\~$"
+        "title": "^\\~$"
        }
     ],
     "type": "con"

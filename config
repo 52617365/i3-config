@@ -156,14 +156,14 @@ exec --no-startup-id "i3-msg 'workspace 4; append_layout /home/rase/.config/i3/w
 exec --no-startup-id "i3-msg 'workspace 5; append_layout /home/rase/.config/i3/entertainment.json'"
 
 # First Workspace
-exec i3-msg 'exec fish -name kitty'
-exec i3-msg 'exec chromium -name chromium'
+exec --no-startup-id "i3-msg 'workspace 1; exec i3-sensible-terminal'"
+exec --no-startup-id "i3-msg 'workspace 1; exec chromium'"
 
 # Second Workspace
-exec i3-msg 'exec brave-browser -name brave\\-browser'
+exec --no-startup-id "i3-msg 'workspace 2; exec brave-browser'"
 
 # Third Workspace
-exec i3-msg 'exec discord -name discord'
+exec --no-startup-id "i3-msg 'workspace 3; exec discord'"
 
 # Fourth Workspace
-exec i3-msg 'exec slack -name slack'
+exec --no-startup-id "i3-msg 'workspace 3; exec slack'"
